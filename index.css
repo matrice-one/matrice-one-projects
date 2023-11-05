@@ -20,14 +20,19 @@
   padding-top: 2em;
 }
 
-
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
 
 body {
     padding-left: 5%;
     padding-right: 5%;
     background-color: rgba(3,72,1, 1);
-    min-height: 1220px;
-}
+    min-height: 200vh;
+
+  }
 
 .body, .navbar-item  {
     font-family: 'Overpass', sans-serif;
@@ -88,7 +93,13 @@ margin-top: auto;
 padding: 0;
 height: 0; /* Set a fixed height for the card content */
 padding-bottom: 100%; /* Set the height to be the same as the width */
+color: white;
+font-family: 'Roboto', sans-serif;
 
+align-items: center;
+justify-content: center;
+padding-left: 5%;
+padding-right: 5%;
 }
 
 .content {
