@@ -16,7 +16,7 @@
 }
 
 .navbar{
-  background-color: rgba(3,72,1, 1);
+  background-color: #3a00ad;
   padding-top: 2em;
 }
 
@@ -29,7 +29,7 @@ html, body {
 body {
     padding-left: 5%;
     padding-right: 5%;
-    background-color: rgba(3,72,1, 1);
+    background-color: #3a00ad;
     min-height: 400vh;
 
   }
@@ -73,7 +73,7 @@ margin-top: auto;
 
   .yellow{
     /* Styles for orange cards */
-    background-color: rgba(208, 212, 11, 0.8);
+    background-color: rgba(255, 251, 43, 0.8);
   }
 
   .pink {
@@ -108,7 +108,6 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
 font-family: 'Overpass', sans-serif;
-color: white;
 font-weight: 500;
 font-size: 13.67;
 }
@@ -139,4 +138,12 @@ font-size: 13.67;
   object-position: center;
 
   
+}
+
+
+.about-me {
+  background-color: black; /* Change this to your desired background color */
+  color: white; /* Change this to your desired text color */
+  padding: 20px; /* Optional: Add some padding for better readability */
+  border-radius: 8px; /* Optional: Add rounded corners */
 }
